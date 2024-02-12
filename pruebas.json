@@ -1,4 +1,5 @@
 // CUSTOMERS
+// endpoint: http://localhost:8090/api/v1/clients/customers , method: POST
 {
     "name": "Jose Lema",
     "gender": "Masculino",
@@ -36,6 +37,7 @@
 }
 
 //  ACCOUNTS
+// endpoint: http://localhost:8090/api/v1/transactions/accounts , method: POST  
 {
     "number": "478758",
     "accountTypeId": 1,
@@ -77,6 +79,7 @@
 }
 
 // MOVEMENTS
+// endpoint: http://localhost:8090/api/v1/transactions/movements , method: POST  
 {
     "movementType": "RETIRO",
     "value": 575,
@@ -104,3 +107,7 @@
     "accountNumber": 496825,
     "status": 1
 }
+
+// REPORT
+// ENDPOINT: http://localhost:8090/api/v1/transactions/movements/report?startDate=2024-02-12&endDate=2024-02-12&customerId=23112
+// METHOD: GET
